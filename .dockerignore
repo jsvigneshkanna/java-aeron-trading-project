@@ -1,0 +1,9 @@
+target/
+.git/
+.idea/
+*.iml
+.env
+*.log
+.DS_Store
+README.md
+docker-compose*.yml
