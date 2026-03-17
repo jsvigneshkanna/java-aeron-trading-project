@@ -72,7 +72,7 @@ public class BinanceWebSocketAdapter {
             listenKey = createListenKey();
             connectWebSocket();
             startKeepaliveTask();
-            logger.info("✅ Connected to Binance Futures Testnet WebSocket");
+            logger.info("Connected to Binance Futures Testnet WebSocket");
         } catch (Exception e) {
             logger.error("Failed to start Binance WebSocket adapter", e);
             running.set(false);
